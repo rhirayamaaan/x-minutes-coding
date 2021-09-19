@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -s './projects/**/build/*'"
+    "deploy": "node ./node_modules/gh-pages/bin/gh-pages.js -d projects -s **/build/*"
   },
   "workspaces": [
     "projects/*"
